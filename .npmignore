@@ -1,0 +1,37 @@
+# Source files (we publish compiled dist)
+credentials/
+nodes/
+index.ts
+
+# Config files
+tsconfig.json
+.eslintrc.js
+.prettierrc
+jest.config.js
+gulpfile.js
+
+# Test files
+test/
+coverage/
+*.test.ts
+*.spec.ts
+
+# Development
+.git/
+.github/
+.vscode/
+.idea/
+
+# Build artifacts (except dist)
+*.tsbuildinfo
+
+# Documentation (keep README and LICENSE)
+docs/
+
+# Scripts (not needed for package consumers)
+scripts/
+
+# Misc
+.DS_Store
+*.log
+.env*
